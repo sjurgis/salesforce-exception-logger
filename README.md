@@ -35,7 +35,7 @@ Use in Visualforce:
 </apex:page>
 ```
 
-Page extension: 
+
 ```java 
 public class LeadExtension {
   @RemoteAction public static void logException (string message, string stack) {
@@ -52,4 +52,5 @@ public class LeadExtension {
       )
     );
   }
-}```
+}
+```
