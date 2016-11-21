@@ -32,8 +32,9 @@ Use in Visualforce:
      }
    }
   </script>
-</apex:page> ```
+</apex:page>```
 
+Page extension: 
 ```java 
 public class LeadExtension {
   @RemoteAction public static void logException (string message, string stack) {
