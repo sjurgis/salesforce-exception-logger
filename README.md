@@ -10,7 +10,7 @@ Use in trigger:
 
 
 Use in Visualforce:
-```<apex:page standardcontroller="Lead" extensions="LeadExtension">
+```html<apex:page standardcontroller="Lead" extensions="LeadExtension">
 <button onclick="javascript:causeException();" > log exception </button>
   <script>
    function causeException(){
@@ -33,7 +33,7 @@ Use in Visualforce:
   </script>
 </apex:page> ```
 
-```public class LeadExtension {
+```java public class LeadExtension {
   @RemoteAction public static void logException (string message, string stack) {
     ExLog.ObjectWritter(
       JSON.serialize (
