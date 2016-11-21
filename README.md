@@ -34,8 +34,8 @@ Use in Visualforce:
   </script>
 </apex:page> ```
 
-```
-java public class LeadExtension {
+```java 
+public class LeadExtension {
   @RemoteAction public static void logException (string message, string stack) {
     ExLog.ObjectWritter(
       JSON.serialize (
