@@ -17,7 +17,7 @@ Use in Visualforce:
      } catch (e) {
         Visualforce.remoting.timeout = 120000; // Set timeout at page level
         Visualforce.remoting.Manager.invokeAction(
-            '{!$RemoteAction.ICPLookupExt.logException}',
+            '{!$RemoteAction.LeadExtension.logException}',
             e.message, 
             e.stack, 
             handleResult,
