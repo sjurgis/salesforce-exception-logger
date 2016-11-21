@@ -6,9 +6,6 @@ Invoke using ExLog.add(<Trigger || Class>, Object name, Method Name, exception o
   
 For example: `ExLog.add('Trigger', 'Account', 'SomeFunction', e, false);`
 
-Use in trigger:
-
-
 Use in Visualforce:
 ```html
 <apex:page standardcontroller="Lead" extensions="LeadExtension">
