@@ -32,7 +32,8 @@ Use in Visualforce:
      }
    }
   </script>
-</apex:page>```
+</apex:page>
+```
 
 Page extension: 
 ```java 
