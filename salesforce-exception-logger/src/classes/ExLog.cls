@@ -117,7 +117,7 @@ public class ExLog {
   }
   
   @future
-  private static void objectWritter (string serializedMessage){
+  public static void objectWritter (string serializedMessage){
     Exception_Log__c toWrite = (Exception_Log__c)JSON.deserialize(serializedMessage, Exception_Log__c.class);
     
     insert toWrite;
