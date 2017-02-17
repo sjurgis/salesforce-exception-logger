@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ExLog</members>
-        <members>ExLogTest</members>
-        <name>ApexClass</name>
+        <members>Exception_Log__c.Created_Datetime__c</members>
+        <members>Exception_Log__c.Exception_Type__c</members>
+        <members>Exception_Log__c.Message__c</members>
+        <members>Exception_Log__c.Method_Name__c</members>
+        <members>Exception_Log__c.Object_Name__c</members>
+        <members>Exception_Log__c.RecordID__c</members>
+        <members>Exception_Log__c.Source_Type__c</members>
+        <members>Exception_Log__c.Stack_Trace__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Exception_Log__c</members>
         <name>CustomObject</name>
     </types>
-    <version>36.0</version>
+    <types>
+        <members>Exception_Log__c-Exception Log Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Exception_Log__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>38.0</version>
 </Package>
