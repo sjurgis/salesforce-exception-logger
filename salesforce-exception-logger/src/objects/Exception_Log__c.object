@@ -113,6 +113,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>RecordName__c</fullName>
+        <externalId>false</externalId>
+        <label>Record Name</label>
+        <length>30</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Source_Type__c</fullName>
         <externalId>false</externalId>
         <label>Source Type</label>
