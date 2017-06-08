@@ -1,9 +1,8 @@
 /*
         Description: Test class for ExLog
  */
-@isTest
-private class ExLogTest {
-	static testMethod void exLogTest() {
+@isTest private class ExLogTest {
+	@isTest static void exLogTest() {
 		Test.startTest();
 		ExLog.writeBatchException('SampleClass','SampleObject','sampleFunction','error message','trace error message', false);
 		ExLog.isTest = true;
@@ -18,7 +17,7 @@ private class ExLogTest {
 		newContact.Email = 'testExLogTest@fakeemail.com';
 		insert newContact;
 		try {
-			ExLog.add('SampleClass','SampleObject','sampleFunction', new ExLogException('Test Exception'), newContact.Id, false);
+			ExLog.add('SampleClass','SampleObject','sampleFunction', new ExLogException('Test Exception'), newContact.FirstName, newContact.Id, false);
 		} catch(Exception e){
 			// We are expecting an exception ehere is we turn on isTest
 		}
